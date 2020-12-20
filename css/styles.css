@@ -4,6 +4,8 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   --main-font: 'Roboto', sans-serif;
+
+  /* для лого: */
   --secondary-font: 'Raleway', sans-serif;
 
   --accent-color: #2196f3;
