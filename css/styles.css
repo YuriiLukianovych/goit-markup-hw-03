@@ -23,6 +23,17 @@ body {
 }
 ul {
   list-style: none;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-left: 0;
 }
 .adress {
   font-style: normal;
@@ -51,7 +62,39 @@ ul {
 
 /* ---------------------------------- END COMPONENTS -------------------------------- */
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /*---------------------------- HEDER ----------------------------*/
+
+.header .container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-list {
+  outline: 1px solid red;
+  display: flex;
+  margin-left: 93px;
+}
+.navigation-list-item {
+  outline: 1px solid blue;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.logo {
+  display: block;
+}
 .navigation-link,
 .contact-mail,
 .contact-phone {
