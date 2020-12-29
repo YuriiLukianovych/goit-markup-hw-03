@@ -21,10 +21,13 @@ body {
   font-family: var(--main-font);
   background-color: #ffffff;
 }
-ul {
+.list {
   list-style: none;
-  padding: 0;
 }
+.link {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -32,8 +35,16 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  min-width: 100%;
 }
 .adress {
   font-style: normal;
@@ -45,7 +56,6 @@ p {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: #000000;
 }
 .logo > span {
@@ -82,13 +92,10 @@ p {
   align-items: center;
 }
 .navigation-list {
-  outline: 1px solid red;
   display: flex;
   margin-left: 93px;
 }
-.navigation-list-item {
-  outline: 1px solid blue;
-}
+
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -102,11 +109,15 @@ p {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .navigation-link {
   color: #212121;
 }
+
+.contact-mail {
+  margin-right: 50px;
+}
+
 .contact-mail,
 .contact-phone {
   color: #757575;
@@ -249,7 +260,6 @@ p {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .post-adress {
   color: #ffffff;
