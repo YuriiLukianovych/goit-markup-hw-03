@@ -169,16 +169,31 @@ img {
 }
 
 /* ----------------------- FEATURES -------------------------- */
+.features {
+  padding: 94px 0;
+}
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+.features-list-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 
   color: var(--title-color);
 }
 .features-description {
+  height: 75px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -188,11 +203,19 @@ img {
 
 /* ------------------------------- WORK ---------------------------- */
 .work {
+  padding-bottom: 94px;
+}
+.work .title {
+  margin-bottom: 50px;
 }
 
 .work-list {
+  display: flex;
+  margin-left: -30px;
 }
 .work-list-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 .work-image {
 }
