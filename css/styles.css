@@ -190,12 +190,11 @@ img {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 
   color: var(--title-color);
 }
 .features-description {
-  height: 75px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -344,7 +343,7 @@ img {
   margin-bottom: 20px;
 }
 .adress-list-item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 }
 .post-adress,
 .footer-mail,
