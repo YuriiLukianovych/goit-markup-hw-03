@@ -14,6 +14,8 @@ font-family: 'Roboto', sans-serif; */
 
   --bgc-main: #2f303a;
   --bgc-secondary: #f5f4fa;
+
+  --card-gap: 30px;
 }
 
 body {
@@ -175,11 +177,11 @@ img {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-left: calc(-1 * var(--card-gap));
 }
 .features-list-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
+  flex-basis: calc(100% / 4 - var(--card-gap));
+  margin-left: var(--card-gap);
 }
 
 .features-title {
@@ -211,11 +213,11 @@ img {
 
 .work-list {
   display: flex;
-  margin-left: -30px;
+  margin-left: calc(-1 * var(--card-gap));
 }
 .work-list-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+  flex-basis: calc(100% / 3 - var(--card-gap));
+  margin-left: var(--card-gap);
 }
 .work-image {
 }
@@ -232,11 +234,11 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-left: calc(-1 * var(--card-gap));
 }
 .team-list-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
+  flex-basis: calc(100% / 4 - var(--card-gap));
+  margin-left: var(--card-gap);
 }
 
 .team-title {
@@ -320,14 +322,14 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-left: calc(-1 * var(--card-gap));
+  margin-top: calc(-1 * var(--card-gap));
 }
 .projects-list-item {
   border: 1px solid #eeeeee;
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+  flex-basis: calc(100% / 3 - var(--card-gap));
+  margin-left: var(--card-gap);
+  margin-top: var(--card-gap);
 }
 .projects-content {
   padding: 20px 24px;
